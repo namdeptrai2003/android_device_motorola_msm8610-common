@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8610 \
     power.msm8610
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8610 \
