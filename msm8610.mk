@@ -120,12 +120,12 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-impl.legacy \
     camera.device@3.2-impl \
     camera.msm8610 \
     libshim_qcopt \
     libshims_sensorlistener \
-    Snap
+    Camera2
 
 # IPC router config
 PRODUCT_COPY_FILES += \
