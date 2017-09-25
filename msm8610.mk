@@ -185,9 +185,9 @@ PRODUCT_PACKAGES += \
     libebtc
 
 # FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni
+#PRODUCT_PACKAGES += \
+#   FMRadio \
+#    libfmjni
 
 # Lights
 PRODUCT_PACKAGES += \
